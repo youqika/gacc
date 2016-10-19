@@ -2,8 +2,8 @@ CREATE DATABASE IF NOT EXISTS gacc;
 
 USE gacc;
 
-CREATE TABLE user_salt(
+CREATE TABLE phone2uid (
+    phone BIGINT(20) NOT NULL,
     uid BIGINT(20) NOT NULL,
-    salt CHAR(8) NOT NULL,
-    PRIMARY KEY (uid)
+    PRIMARY KEY (phone)
 ) ENGINE=InnoDB DEFAULT CHARACTER SET=utf8;
