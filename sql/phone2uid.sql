@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS gacc;
+CREATE DATABASE IF NOT EXISTS phone_first;
 
-USE gacc;
+USE phone_first;
 
 CREATE TABLE phone2uid (
     phone BIGINT(20) NOT NULL,

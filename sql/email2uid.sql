@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS gacc;
+CREATE DATABASE IF NOT EXISTS email_first;
 
-USE gacc;
+USE email_first;
 
 CREATE TABLE email2uid (
     email VARCHAR(32) NOT NULL,
